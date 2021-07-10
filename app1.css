@@ -1,10 +1,9 @@
 body{
     background-color:#e9ecef;
     overflow-x:hidden;
-    margin-left:auto;
-    margin-right:auto;
-    padding-y:0;
+
 }
+/*carousel section starts*/
 .carousel-caption{
     bottom: 100px;
 }
@@ -14,8 +13,8 @@ body{
     text-transform: uppercase;
     margin-top: 25px;
 }
+/*cards section starts*/
 .container{
-    width:90%;
     margin-top:-3%;
     
 }
@@ -38,6 +37,7 @@ p{
     font-family: 'Noto Sans', sans-serif;
     margin-top: 5%;
 }
+/* third section(plan your Vacations with us) starts here*/
 #third{
     margin-top: 6%;
     margin-left: auto;
@@ -71,88 +71,7 @@ p{
 .tablink p{
     font-size: medium;
 }
-/*.wrapper{
-    width: 600px;
-    margin: 5% auto;
-    background-position: center center;
-}
-
-.wrapper h2{
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-   
-}
-.single-service{
-    position: relative;
-    width: 31%;
-    height: 250px;
-    background: #fff;
-    box-sizing: border-box;
-    padding: 0 15px;
-    transition: .5s;
-    overflow: hidden;
-    float: left;
-    margin: 15px 10px;
-    text-align: center;
-}
-.line{
-    width:150px;
-    height: 3px;
-    margin:  auto 60px auto;
-}
-.single-service p{
-    font-size: 16px;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-.single-service h3{
-    font-size: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-}
-.social{
-    width:60px ;
-    height:60px ;
-    background: #000;
-    border-radius: 50%;
-    margin: 5% auto;
-}
-.social i{
-    font-size: 30px;
-    padding: 15px;
-    color: #fff;
-}
-
-.single-service span{
-    position: absolute;
-    top: 0;
-    left: -110%;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0, 0,7);
-    transition: .7s;
-    transform: skewX(10deg);
-}
-.single-service:hover span{
-    left: 110%;
-}
-@media (max-width:600px) {
-    .wrapper{
-        width: 100%;
-    }
-    .single-service{
-        width: 95%;
-        margin-bottom: 30px;
-    }
-    .wrapper h2{
-        font-size: 30px;
-    }
-}*/
+/*our service section starts here*/
 .wrapper{
     font-family: 'raleway';
     display:flex;
@@ -219,15 +138,16 @@ p{
     }
 }
 /*responsive card section*/
-@media (max-width:990px) {
+@media (max-width:800px) {
       .container{
-          padding: 25px;
+          padding: 35px;
       }
       .card{
-        min-width: 300px;
+        min-width: 100%;
         margin: 10px auto;
       }
 }
+/*gallery*/
 .slider{
     height:250px;
     margin:auto;
@@ -269,24 +189,7 @@ p{
     transform: translateZ(20px);
 }
 
-/*.slider::before,
-.slider::after{
-    background: linear-gradient(to right,rgba(255,255,255,1)0%,rgba(255,255,255,0)100%);
-    content: '';
-    height: 100%;
-    position: absolute;
-    width: 5%;
-    z-index: 2;
-}
-.slider::before{
-    left: 0;
-    top: 0;
-}
-.slider::after{
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-}*/
+/*footer*/
 footer{
     background: #f8f9fa;
     height: 400px;
