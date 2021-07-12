@@ -12,6 +12,7 @@ body{
     font-size: 50px;
     text-transform: uppercase;
     margin-top: 25px;
+    text-shadow: 0 0 1vw #a6e1fa, 0 0 3vw #a6e1fa, 0 0 10vw #778da9, 0 0 10vw #778da9, 0 0 .4vw #778da9, .5vw .5vw .1vw #778da9;
 }
 /*cards section starts*/
 .container{
