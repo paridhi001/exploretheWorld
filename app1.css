@@ -199,10 +199,11 @@ p{
 /*footer*/
 footer{
     background: #f8f9fa;
-    height: 250px;
+    height: 280px;
     width: 100vw;
     padding-top: 20px 0;
     margin-top: 20px;
+    position:relative;
    
 }
 .footer-content{
@@ -248,9 +249,12 @@ footer{
 .footer-bottom{
     background: #adb5bd;
     width: 100vw;
-    padding: 10px 0;
+    height: 50px;
     text-align: center;
-    margin-top: -5%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 8px;
 }
 .footer-bottom p{
     margin-top: 10px;
