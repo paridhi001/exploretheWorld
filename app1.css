@@ -5,6 +5,8 @@ html,body{
     margin:0px;
     padding: 0px;
     overflow-x:hidden;
+    overflow-y: scroll;
+    min-height:100%;
 
 }
 /*carousel section starts*/
@@ -197,9 +199,10 @@ p{
 /*footer*/
 footer{
     background: #f8f9fa;
-    height: 400px;
+    height: 250px;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 20px 0;
+    margin-top: 20px;
    
 }
 .footer-content{
@@ -245,8 +248,9 @@ footer{
 .footer-bottom{
     background: #adb5bd;
     width: 100vw;
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
+    margin-top: -5%;
 }
 .footer-bottom p{
     margin-top: 10px;
