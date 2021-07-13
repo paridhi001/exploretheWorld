@@ -206,6 +206,9 @@ footer{
     position:relative;
    
 }
+.footer-content h3{
+    margin-top: 30px;
+}
 .footer-content{
      display: flex;
      align-items: center;
