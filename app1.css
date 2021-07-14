@@ -211,7 +211,6 @@ footer{
      display: block;
      align-items: center;
      justify-content: center;
-     flex-direction: column;
      text-align: center;
 }
 .footer-content p{
@@ -219,7 +218,9 @@ footer{
     margin: 10px auto;
     line-height: 28px;
     font-size: 16px;
+    padding-top: 20px;
 }
+
 .socials{
     list-style: none;
     display: flex;
@@ -257,7 +258,6 @@ footer{
 }
 .footer-bottom p{
     margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
